@@ -1,0 +1,25 @@
+/* body {
+  display: flex;
+  justify-content: center;
+
+} */
+
+#meme-image-container {
+  height: 400px;
+  width:  400px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+#meme-text {
+  position: absolute;
+  text-shadow: rgb(0,0,0) 5px 5px 5px;
+  font-size: 30px;
+  color: white;
+}
+
+#meme-image {
+  width: 800px;  
+}

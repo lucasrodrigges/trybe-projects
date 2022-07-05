@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(218, 218, 218);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 10px;
+  height: 10vh;
+  background: rgb(50, 167, 145);
+}
+
+header input , header button {
+  outline: none;
+  border: none;
+  width: 150px;
+  margin-right: 4px;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+header button {
+  background: rgb(117, 40, 204);
+  color: white;
+}
+
+button:hover {
+  transition: 0.4s;
+  filter: brightness(1.3);
+}
+
+.trybewarts-header-logo {
+  width: 35px;
+  height: 35px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  padding: 20px 0;
+}
+
+#trybewarts-forms-logo {
+  transition: 0.5s;
+  width: 500px;
+  height: 500px;
+}
+
+#evaluation-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  width: 675px;
+}
+
+@keyframes hidden {
+
+  to {
+    display: none;
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+
+  from {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main input , #house {
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 5px 0;
+}
+
+.user-name-info , .user-email-house {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.user-name-info input , .user-email-house input , #house {
+  width: 46%;
+}
+
+#house {
+  outline: none;
+  border: none;
+}
+
+.user-more_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#families , #contents {
+  width: 50%;
+  margin: 15px 0;
+}
+
+#families div {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  word-wrap: break-word;
+}
+
+#rate-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#text {
+  position: relative;
+  margin: 15px 0;
+  width: 100%;
+  height: 100px;
+}
+
+#text textarea {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(117, 40, 204, 0.5);
+  outline: none;
+  resize: none;
+}
+
+#counter {
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+}
+
+#agreement-checkbox {
+  width: 100%;
+  text-align: left;
+}
+
+#agreement-checkbox button {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  background: rgb(117, 40, 204);
+  color: white;
+  margin: 5px 0;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+#card {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  visibility: hidden;
+  text-align: center;
+  padding: 12px;
+  background: radial-gradient(rgb(240, 226, 169), rgb(202, 196, 140));
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+#card-logo {
+  width: 30%;
+}
+
+#form-data {
+  text-align: left;
+  font-size: 10px;
+  list-style: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: gray;
+  color: white;
+  padding: 5px;
+  height: 5vh;
+}
+
+footer p {
+  margin: 0 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(117, 40, 204);
+}
