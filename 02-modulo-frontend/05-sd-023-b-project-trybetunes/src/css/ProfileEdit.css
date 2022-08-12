@@ -1,0 +1,38 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+.general-container-profile-edit {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-edit-container {
+  display: flex;
+  justify-content: center;
+  transition: 700ms;
+  height: 50vh;
+  width: 40%;
+  margin-top: 10vh;
+  background-color: rgb(209, 166, 110);;
+  border-radius: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.form-profile-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  
+  /* margin-top: 80px; */
+}

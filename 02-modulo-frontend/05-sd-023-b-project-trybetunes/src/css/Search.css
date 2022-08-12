@@ -1,0 +1,103 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+/* .title-searc-container {
+  display: flex;
+  justify-content: center;
+}
+.title-search {
+  margin: 35px;
+  font-family: 'Sen', sans-serif;
+} */
+
+.form-search-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.input-search {
+  font-family: 'Sen', sans-serif;
+}
+
+.input-search:placeholder-shown {
+  font-family: 'Sen', sans-serif;
+}
+
+.btn-search {
+  font-family: 'Sen', sans-serif;
+}
+
+.title-result {
+  font-family: 'Sen', sans-serif;
+}
+
+.search-result-title {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.album-title, .track-name, .artist-name, .album-name, .heart, .title-favorites {
+  font-family: 'Sen', sans-serif;
+}
+
+@keyframes opacityAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.ul-albuns-container {
+  display: flex;
+  justify-content: center;
+}
+
+.albuns-ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.album-li {
+  animation-name: opacityAnimation;
+  animation-duration: 2s;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin: 20px;
+  height: 150px;
+  width: 400px;
+  background-color:rgba(231, 197, 153, 0.635);
+  box-shadow: 3px 5px rgb(221, 182, 131);
+  border-radius: 10px;
+}
+
+.album-li:hover {
+  transition: 700ms;
+  background-color: antiquewhite;
+}
+
+.link-album-search {
+  margin: 20px;
+}
+
+.img-album-search {
+  margin-left: 10px;
+}
+

@@ -1,0 +1,67 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+.general-container-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 50%;
+  /* height: 20%; */
+  background-color:rgba(231, 197, 153, 0.635);
+  box-shadow: 4px 8px rgb(221, 182, 131);
+  border-radius: 10px;
+  border-radius: 30px;
+  font-family: 'Sen', sans-serif;
+  /* border: 2px solid black; */
+}
+
+.title--item-profile {
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.img-profile {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin: 80px;
+}
+
+.btn-profile {
+  margin-top: 15px;
+  color: white;
+}
+
+.link-profile {
+  color: white;
+  font-family: 'Sen', sans-serif;
+}
+
+.btn-profile:hover {
+  color: white;
+  font-family: 'Sen', sans-serif;
+}
+
+.txt-btn {
+  color: white;
+}

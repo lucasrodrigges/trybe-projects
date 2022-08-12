@@ -1,0 +1,43 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+.header-component {
+  font-family: 'Sen', sans-serif;
+  /* margin-left: 20px; */
+}
+
+.header-item {
+  margin-left: 10px;
+}
+
+#navbarBasicExample{
+  background-color: rgb(209, 166, 110);
+}
+
+/* .navbar-menu {
+  background-color: antiquewhite;
+} */
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+}
+
+.navbar {
+  flex-direction: column;
+} 
+
+

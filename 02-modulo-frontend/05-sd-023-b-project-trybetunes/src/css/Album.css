@@ -1,0 +1,86 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+.titles-container {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-card-container {
+  transition: 700ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-card {
+  transition: 700ms;
+  animation-name: opacityAnimation;
+  animation-duration: 2s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  height: 150px;
+  width: 750px;
+  background-color:rgba(231, 197, 153, 0.635);
+  box-shadow: 3px 5px rgb(221, 182, 131);
+  border-radius: 10px;
+}
+
+.music-card:hover {
+  transition: 700ms;
+  background-color: antiquewhite;
+}
+
+/* .label-album-list {
+  margin-right: 0px;
+} */
+
+.name-control {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40px;
+  text-align: center;
+}
+
+/* .img-album-list {
+  margin-left: 30px;
+} */
+
+.track-name {
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.checkbox-music-card {
+  display: none;
+}
+
+.label-album-list {
+  transition: 500ms;
+  font-size: 40px;
+}
+
+.checked {
+  transition: 500ms;
+  color: red;
+}
+
+.not-checked {
+  transition: 500ms;
+  color: white;
+}
